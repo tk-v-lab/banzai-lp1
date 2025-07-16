@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バンザイマン | あなたの「おめでとう」を全力応援！</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <style>
+        /* --- Base Styles --- */
+        body {
+            margin: 0;
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #fdfdfd;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        img, video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #ff4500;
+            font-family: 'Luckiest Guy', cursive;
+            letter-spacing: 2px;
+        }
+
+        .bg-light {
+            background-color: #f4f4f4;
+        }
+
+        /* --- Header & Hero --- */
+        .hero {
+            background: #ff7e5f;
+            background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+            background: linear-gradient(to right, #feb47b, #ff7e5f);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            border-bottom-left-radius: 50% 20px;
+            border-bottom-right-radius: 50% 20px;
+        }
+
+        .hero-logo {
+            max-width: 450px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .banzai-gif {
+            margin-top: 20px;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        /* --- CTA Button --- */
+        .cta-button {
+            display: inline-block;
+            background-color: #ff4500;
+            color: white;
+            padding: 15px 40px;
+            margin-top: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        /* --- About Section --- */
+        #about p {
+            text-align: center;
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* --- Features Section --- */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .feature-item {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .feature-item h3 {
+            font-size: 1.5em;
+            color: #ff4500;
+            margin-top: 0;
+        }
+
+        /* --- Works Section --- */
+        .video-item {
+            text-align: center;
+        }
+        
+        .work-video {
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* --- Contact Section --- */
+        #contact .container {
+            text-align: center;
+        }
+
+        /* --- Footer --- */
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <img src="images/Banzaiman_LOGO_Sample_1.webp" alt="バンザイマン" class="hero-logo">
+            <p class="hero-subtitle">バンザイで、世界を元気に。</p>
+            <img src="images/BANZAItest02.gif" alt="万歳GIF" class="banzai-gif">
+            
+            <a href="#contact" class="cta-button">バンザイグッズはこちら</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">バンザイマンとは？</h2>
+                <p>“社畜社会”に光を。バンザイマンは、日々疲れ果てた人々にバンザイを通して元気を届けるヒーローです。<br>レトロな世界観×シュールな動き×共感できるネタで、30～40代のサラリーマンを笑顔に！</p>
+            </div>
+        </section>
+
+        <section id="features" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">登場キャラクター</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3>バンザイマン</h3>
+                        <p>舐めるとすっとする飴で変身する、笑顔の伝道師</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>苦労さん</h3>
+                        <p>本名・苦労太郎。ブラック企業で働くWebデザイナー。変身前の姿</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>プレッシャー部長</h3>
+                        <p>上司モンスター。重圧をバラまきまくるバンザイマンの宿敵</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2 class="section-title">作品一覧</h2>
+                <div class="video-item">
+                    <video controls autoplay muted loop class="work-video">
+                        <source src="images/BZ_Short0706-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">✨一緒にバンザイしよう！</h2>
+                <p>バンザイマンは、くたびれた毎日に「元気」と「笑い」を届ける、ゆるっと最強のヒーロー！<br>困ってる人がいたら、ただひとこと。<br>＼バンザーイ！！／<br>そんな“バンザイの魔法”を広げる仲間、募集中です！</p>
+                <a href="#" class="cta-button">バンザイグッズはこちら</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Voxel Rangers. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
