@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>バンザイマン | あなたの「おめでとう」を全力応援！</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: 'Keifont';
+            src: url('images/k-font/keifont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
         /* --- Base Styles --- */
         body {
             margin: 0;
-            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Keifont', sans-serif;
             background-color: #fdfdfd;
             color: #333;
             line-height: 1.8;
@@ -37,7 +41,7 @@
             font-size: 2.5em;
             margin-bottom: 40px;
             color: #ff4500;
-            font-family: 'Luckiest Guy', cursive;
+            font-family: 'Keifont', cursive;
             letter-spacing: 2px;
         }
 
@@ -58,13 +62,13 @@
         }
 
         .hero-logo {
-            max-width: 450px;
+            max-width: 900px;
             margin: 0 auto;
             display: block;
         }
 
         .hero-subtitle {
-            font-size: 1.5em;
+            font-size: 3.75em;
             font-weight: bold;
             margin-top: 10px;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -75,6 +79,7 @@
             max-width: 600px;
             border-radius: 15px;
             box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            margin: 20px auto;
         }
 
         /* --- CTA Button --- */
@@ -158,9 +163,11 @@
         <div class="container">
             <img src="images/Banzaiman_LOGO_Sample_1.webp" alt="バンザイマン" class="hero-logo">
             <p class="hero-subtitle">バンザイで、世界を元気に。</p>
+            
+            
             <img src="images/BANZAItest02.gif" alt="万歳GIF" class="banzai-gif">
             
-            <a href="#contact" class="cta-button">バンザイグッズはこちら</a>
+            
         </div>
     </header>
 
